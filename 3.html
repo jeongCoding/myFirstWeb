@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WEB1 - JavaScript</title>
+  <meta charset="utf-8">
+  <script src="javaScript/colors.js"></script>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <h1><a href="index.html">WED</a></h1>
+  <!-- 중복 제거 전
+  <input id="night_day" type="button" value="night" onclick="
+  if (document.querySelector('#night_day').value === 'night') {
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('#night_day').value = 'day';
+  } else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('#night_day').value = 'night';
+  }
+  ">
+  -->
+  <input type="button" value="night" onclick="nightDayHandler(this)">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</li></a>
+      <li><a href="2.html">CSS</li></a>
+      <li><a href="3.html">JavaScript</li></a>
+      <li><a href="4.html">PHP</li></a>
+    </ol>
+    <div id="article">
+      <h2>JavaScript</h2>
+      <p>
+        is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+        'Content here, content here', making it look like readable English. Many desktop publishing packages and web
+        fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).t here', making it look like readable English. Many desktop publishing packages and web
+        established fact
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
